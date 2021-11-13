@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "CIA Capivara SA",
+      "price": 90
+    },
+    {
+      "id": 2,
+      "name": "Floricultura Cidade das Flores",
+      "price": 85
+    },
+    {
+      "id": 3,
+      "name": "Chapelaria Doutor Blumenau",
+      "price": "74"
+    },
+    {
+      "name": "Padaria Pão com Bolinho",
+      "price": "88",
+      "id": 4
+    }
+  ]
+}

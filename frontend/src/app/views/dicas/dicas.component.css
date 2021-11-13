@@ -1,0 +1,36 @@
+iframe{
+    max-width: 100%;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .w33,.w50{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 512px){
+    header{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .w33,.w50{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

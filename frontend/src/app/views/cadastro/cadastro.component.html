@@ -1,0 +1,151 @@
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ </head>
+
+ <body>
+  <h2> Preencha cadastro abaixo para participar da Iniciativa Empresa Vacinada</h2><br />
+
+<form action="Script_do_Formulario.php" method="post">
+
+<!-- DADOS PESSOAIS-->
+<fieldset>
+ <legend>Dados Pessoais</legend>
+ <table cellspacing="10">
+  <tr>
+      
+   <td>
+    <label for="nome">Nome Comercial: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome">
+   </td>
+  </tr>
+
+
+  <tr>
+   <td>
+    <label>CNPJ:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="cpf" size="14" maxlength="14">
+   </td>
+  </tr>
+
+ </table>
+</fieldset>
+
+<br />
+<!-- ENDEREÇO -->
+<fieldset>
+ <legend>Dados de Endereço</legend>
+ <table cellspacing="10">
+
+  <tr>
+   <td>
+    <label for="rua">Rua:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="rua">
+   </td>
+   <td>
+    <label for="numero">Numero:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="numero" size="4">
+   </td>
+  </tr>
+
+
+
+  <tr>
+   <td>
+    <label for="estado">Bairro/Distrito:</label>
+   </td>
+   <td align="left">
+    <select name="estado"> 
+    <option value="av">Água Verde</option> 
+    <option value="bd">Badenfurt</option> 
+    <option value="bv">Boa Vista</option> 
+    <option value="br">Bom Retiro</option> 
+    <option value="ct">Centro</option> 
+    <option value="gl">Glória</option> 
+    <option value="st">Salto</option> 
+    <option value="es">Escola Agrícola</option> 
+    <option value="fi">Fidélis</option> 
+    <option value="fo">Fortaleza</option> 
+    <option value="fa">Fortaleza Alta</option> 
+    <option value="ic">Itoupava Central</option> 
+    <option value="in">Itoupava Norte</option> 
+    <option value="is">Itoupava Seca</option> 
+
+    <option value="vl">Velha</option> 
+    <option value="vc">Velha Central</option> 
+
+    <option value="vi">Vila Itoupava</option> 
+    <option value="vn">Vila Nova</option> 
+    <option value="vt">Vorstadt</option> 
+
+   </select>
+   </td>
+  </tr>
+
+
+ </table>
+</fieldset>
+<br />
+
+<!-- DADOS DE LOGIN -->
+<fieldset>
+ <legend>Dados de login</legend>
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="email">E-mail: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="email">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="imagem">Imagem de perfil:</label>
+   </td>
+   <td>
+    <input type="file" name="imagem" >
+
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="login">Login de usuário: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="login">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="pass">Senha: </label>
+   </td>
+   <td align="left">
+    <input type="password" name="pass">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="passconfirm">Confirme a senha: </label>
+   </td>
+   <td align="left">
+    <input type="password" name="passconfirm">
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<br />
+<input type="submit">
+<input type="reset" value="Limpar">
+</form>
+
+ </body>
+</html>
