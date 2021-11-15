@@ -11,6 +11,13 @@
         <th mat-header-cell *matHeaderCellDef>Nome</th>
         <td mat-cell *matCellDef="let row">{{row.name}}</td>
       </ng-container>
+
+
+      <!-- CNPJ Column -->
+      <ng-container matColumnDef="percentual">
+      <th mat-header-cell *matHeaderCellDef>Percentual</th>
+      <td mat-cell *matCellDef="let row">{{ row.price }}%</td>
+      </ng-container>
   
       <!-- CNPJ Column -->
       <ng-container matColumnDef="cnpj">

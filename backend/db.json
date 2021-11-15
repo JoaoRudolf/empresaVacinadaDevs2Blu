@@ -12,7 +12,7 @@
       "numFuncionarios": 300,
       "numFuncJustificativa": 13,
       "numeFuncVacinados": 251,
-      "price": 90
+      "price": "97"
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "numFuncionarios": 18,
       "numFuncJustificativa": 2,
       "numeFuncVacinados": 14,
-      "price": 85
+      "price": "95"
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       "numFuncionarios": 300,
       "numFuncJustificativa": 13,
       "numeFuncVacinados": 251,
-      "price": "74"
+      "price": "94"
     },
     {
       "name": "Padaria Pão com Bolinho",
@@ -53,28 +53,8 @@
       "numFuncionarios": 20,
       "numFuncJustificativa": 0,
       "numeFuncVacinados": 18,
-      "price": "88",
+      "price": "90",
       "id": 4
-    },
-    {
-      "name": "Cia legal",
-      "price": "8",
-      "id": 5
-    },
-    {
-      "name": "teste",
-      "price": "8",
-      "id": 6
-    },
-    {
-      "name": "Cia legal",
-      "price": "100",
-      "id": 7
-    },
-    {
-      "name": "Cia legal",
-      "price": "8",
-      "id": 10
     }
   ]
 }

@@ -1,0 +1,45 @@
+.login-form {
+    width: 30vw;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .container-login-form-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    width: 20vw;
+  }
+  
+  .login-utils {
+    margin-top: 50px;
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  .text2 {
+    text-decoration: none;
+  }
+  
+  .text2:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+  }

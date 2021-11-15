@@ -13,3 +13,26 @@ table {
 .delete > i {
     color: #e35e6b;
 }
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 33px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.selo {
+  width: 15%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
