@@ -10,7 +10,7 @@
 
 <!-- DADOS PESSOAIS-->
 <fieldset>
- <legend>Dados Pessoais</legend>
+ <legend>Identificação</legend>
  <table cellspacing="10">
   <tr>
       
@@ -20,6 +20,37 @@
    <td align="left">
     <input type="text" name="nome">
    </td>
+
+
+
+    <td>
+      <label for="segmento">Segmento</label>
+     </td>
+
+     <td align="left">
+      <select name="segm"> 
+      <option value="ic">Choperia</option>
+      <option value="vn">Comércio</option> 
+      <option value="vt">Indústria</option>
+      <option value="ic">Lanchonete</option> 
+      <option value="ic">Padaria</option> 
+      <option value="vi">Prestação de Serviços</option> 
+      <option value="ic">Restaurante</option> 
+      <option value="vt">Outro Segmento</option>  
+  
+     </select>
+     </td>
+
+     <td>
+      <label for="numero">Outro Segmento (especificar):</label>
+     </td>
+     <td align="left">
+      <input type="text" name="outro" size="12">
+    </td>
+
+   
+
+   
   </tr>
 
 
@@ -31,6 +62,9 @@
     <input type="text" name="cpf" size="14" maxlength="14">
    </td>
   </tr>
+
+
+  
 
  </table>
 </fieldset>
@@ -63,7 +97,7 @@
     <label for="estado">Bairro/Distrito:</label>
    </td>
    <td align="left">
-    <select name="estado"> 
+    <select name="bairro"> 
     <option value="av">Água Verde</option> 
     <option value="bd">Badenfurt</option> 
     <option value="bv">Boa Vista</option> 
@@ -107,23 +141,8 @@
     <input type="text" name="email">
    </td>
   </tr>
-  <tr>
-   <td>
-    <label for="imagem">Imagem de perfil:</label>
-   </td>
-   <td>
-    <input type="file" name="imagem" >
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="login">Login de usuário: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="login">
-   </td>
-  </tr>
+
   <tr>
    <td>
     <label for="pass">Senha: </label>

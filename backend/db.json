@@ -3,22 +3,78 @@
     {
       "id": 1,
       "name": "CIA Capivara SA",
+      "segmento": "Indústria",
+      "cnpj": 9988877700016656,
+      "rua": "",
+      "numero": "",
+      "bairro": "Bom Retiro",
+      "login": "",
+      "numFuncionarios": 300,
+      "numFuncJustificativa": 13,
+      "numeFuncVacinados": 251,
       "price": 90
     },
     {
       "id": 2,
       "name": "Floricultura Cidade das Flores",
+      "segmento": "Comércio",
+      "cnpj": 11222444000166,
+      "rua": "",
+      "numero": "",
+      "bairro": "Velha Central",
+      "login": "",
+      "numFuncionarios": 18,
+      "numFuncJustificativa": 2,
+      "numeFuncVacinados": 14,
       "price": 85
     },
     {
       "id": 3,
       "name": "Chapelaria Doutor Blumenau",
+      "segmento": "Comércio",
+      "cnpj": 88222444000199,
+      "rua": "",
+      "numero": "",
+      "bairro": "Centro",
+      "login": "",
+      "numFuncionarios": 300,
+      "numFuncJustificativa": 13,
+      "numeFuncVacinados": 251,
       "price": "74"
     },
     {
       "name": "Padaria Pão com Bolinho",
+      "segmento": "Padaria",
+      "cnpj": 88222444000199,
+      "rua": "",
+      "numero": "",
+      "bairro": "Centro",
+      "login": "",
+      "numFuncionarios": 20,
+      "numFuncJustificativa": 0,
+      "numeFuncVacinados": 18,
       "price": "88",
       "id": 4
+    },
+    {
+      "name": "Cia legal",
+      "price": "8",
+      "id": 5
+    },
+    {
+      "name": "teste",
+      "price": "8",
+      "id": 6
+    },
+    {
+      "name": "Cia legal",
+      "price": "100",
+      "id": 7
+    },
+    {
+      "name": "Cia legal",
+      "price": "8",
+      "id": 10
     }
   ]
 }

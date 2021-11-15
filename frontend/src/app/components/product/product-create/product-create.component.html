@@ -1,14 +1,42 @@
 <mat-card>
-    <mat-card-title>Novo Produto</mat-card-title>
+    <mat-card-title>Cadastrar Empresa</mat-card-title>
     <form>
         <mat-form-field>
             <input matInput placeholder="Nome"
                 [(ngModel)]="product.name" name="name">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Preço (R$)"
+            <input matInput placeholder="Percentual de Vacinação"
                 [(ngModel)]="product.price" name="price">
         </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Segmento"
+                [(ngModel)]="product.segmento" name="segmento">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="CNPJ"
+                [(ngModel)]="product.cnpj" name="cnpj">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Rua"
+                [(ngModel)]="product.rua" name="rua">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Numero"
+                [(ngModel)]="product.numero" name="numero">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Bairro"
+                [(ngModel)]="product.bairro" name="bairro">
+        </mat-form-field>
+    
+
+
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">
         Salvar

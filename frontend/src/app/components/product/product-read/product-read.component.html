@@ -12,10 +12,10 @@
         <td mat-cell *matCellDef="let row">{{row.name}}</td>
       </ng-container>
   
-      <!-- Price Column -->
-      <ng-container matColumnDef="price">
-        <th mat-header-cell *matHeaderCellDef>Percentual</th>
-        <td mat-cell *matCellDef="let row">{{ row.price }}%</td>
+      <!-- CNPJ Column -->
+      <ng-container matColumnDef="cnpj">
+        <th mat-header-cell *matHeaderCellDef>CNPJ</th>
+        <td mat-cell *matCellDef="let row">{{ row.cnpj }}</td>
       </ng-container>
 
       <!-- Action Column -->
@@ -39,5 +39,4 @@
       <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
 
-    
   </div>

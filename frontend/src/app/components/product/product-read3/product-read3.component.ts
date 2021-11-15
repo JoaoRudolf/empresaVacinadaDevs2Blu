@@ -9,6 +9,9 @@ import { ProductService } from '../product.service';
 })
 export class ProductRead3Component implements OnInit {
 
+ 
+  displayedColumns = ['name', 'price', 'segmento', 'bairro']
+
   products: Product[]
   constructor(private productService: ProductService) { }
 
