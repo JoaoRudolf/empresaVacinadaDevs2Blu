@@ -13,10 +13,12 @@ p {
 
 .selo {
   width: 15%;
-}
-
-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tabela {
+  width: 70%;
+  margin: 0 auto;
 }
