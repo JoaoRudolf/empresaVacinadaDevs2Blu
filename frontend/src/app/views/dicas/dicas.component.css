@@ -1,36 +1,67 @@
-iframe{
-    max-width: 100%;
+.prevencao {
+  text-align: center;
 }
 
-footer{
-    width: 100%;
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.orientaçoes {
+  font-size: 16px;
+  font-style: italic;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 40px;
+}
+
+.dicas {
+  font-size: 14px;
+}
+
+.dicas p {
+  margin-bottom: 20px;
+}
+
+iframe {
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  header {
     text-align: center;
-    background-color: darkblue;
-    color: white;
+  }
+  .menu {
+    text-align: center;
+  }
+  .w33,
+  .w50 {
+    width: 50%;
+    margin-bottom: 10px;
+  }
 }
 
-@media screen and (max-width: 768px){
-    header{
-        text-align: center;
-    }
-    .menu{
-        text-align: center;
-    }
-    .w33,.w50{
-        width: 50%;
-        margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-width: 512px){
-    header{
-        text-align: center;
-    }
-    .menu{
-        text-align: center;
-    }
-    .w33,.w50{
-        width: 100%;
-        margin-bottom: 10px;
-    }
+@media screen and (max-width: 512px) {
+  header {
+    text-align: center;
+  }
+  .menu {
+    text-align: center;
+  }
+  .w33,
+  .w50 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
